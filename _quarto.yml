@@ -9,7 +9,6 @@ website:
     type: info
     position: below-navbar  
   title: "UMGCC FCSS"
-  site-path: "/InstrumentQC/Historical/"
   navbar:
     logo: images/hex.svg
     left:
@@ -47,8 +46,12 @@ website:
         href: index.qmd
       - text: "BD FACSAria II"
         href: https://umgccfcss.github.io/AriaII
-    - text: "Year:"
+    - text: "Year"
       menu:
+      - text: "2018"
+        href: Year2018.qmd
+      - text: "2019"
+        href: Year2019.qmd
       - text: "2020"
         href: Year2020.qmd
       - text: "2021"
