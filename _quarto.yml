@@ -9,6 +9,7 @@ website:
     type: info
     position: below-navbar  
   title: "UMGCC FCSS"
+  site-path: "/InstrumentQC/Historical/"
   navbar:
     logo: images/hex.svg
     left:
@@ -32,8 +33,20 @@ website:
         href: https://umgccfcss.github.io/InstrumentQC/AriaII
     - text: "Historical"
       menu:
+      - text: "Cytek Aurora 3L"
+        href: https://umgccfcss.github.io/Aurora3L/
+      - text: "Cytek Aurora 4L"
+        href: https://umgccfcss.github.io/Aurora4L/
+      - text: "Cytek Aurora 5L"
+        href: https://umgccfcss.github.io/Aurora5L/
+      - text: "Cytek Aurora CS"
+        href: https://umgccfcss.github.io/AuroraCS/
+      - text: "BD FACSCanto II "
+        href: https://umgccfcss.github.io/CantoII
       - text: "BD LSR II"
-        href: LSRII.qmd
+        href: index.qmd
+      - text: "BD FACSAria II"
+        href: https://umgccfcss.github.io/AriaII
     - text: "Year:"
       menu:
       - text: "2020"

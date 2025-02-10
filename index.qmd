@@ -1,0 +1,208 @@
+---
+format:
+  dashboard:
+    orientation: rows
+project:
+  output-dir: docs/
+---
+
+```{r}
+library(htmltools)
+```
+
+```{r}
+TheDate <- Sys.Date()
+```
+
+## {.sidebar}
+Dashboard contains historical data for the **BD LSR II**.
+
+**Contents:**
+
+**Interactive** A redirect to the interactive Levey-Jennings plots for the respective year.
+
+**Plots** A .pdf file containing non-interactive version of all the plots for the respective year.
+
+**Gain and MFI** A .csv file containing Gain and MFI information derrived from Daily QC .fcs files used to generate the plots.
+
+For additional information, navigate to the [Help](https://umgccfcss.github.io/InstrumentQC/help) page.
+
+**About**
+
+This dashboard contains the visualized QC data for the Cytek and BD cytometers at the [UMGCC FCSS](https://www.medschool.umaryland.edu/cibr/core/umgccc_flow/)
+
+For additional flow cytometry resources, visit our [website](https://sites.google.com/view/umgcccflow/home)
+
+This dashboard was created with [Quarto](https://quarto.org/) and is maintained by [David Rach](https://github.com/DavidRach)
+
+
+## First Row {height="50%"}
+
+### Year 2018 {width="50%"}
+
+::: {.card title="" width="33%"}
+
+:::
+
+```{r}
+#| content: valuebox
+#| title: "Year 2018"
+#| icon: cup-hot
+
+HTML("
+<ul>
+  <li><a href='Year2018.html'>Interactive</a></li>
+  <li><a href='data/Historical_LSRII_2018.pdf'>Plots</a></li>
+  <li><a href='data/Historical_LSRII_2018.csv'>Gain and MFI</a></li>
+</ul>
+")
+```
+
+### Year 2020 {width="50%"}
+
+::: {.card title="" width="33%"}
+
+:::
+
+```{r}
+#| content: valuebox
+#| title: "Year 2020"
+#| icon: cup-hot
+
+HTML("
+<ul>
+  <li><a href='Year2020.html'>Interactive</a></li>
+  <li><a href='data/Historical_LSRII_2020.pdf'>Plots</a></li>
+  <li><a href='data/Historical_LSRII_2020.csv'>Gain and MFI</a></li>
+</ul>
+")
+```
+
+### Year 2022 {width="50%"}
+
+::: {.card title="" width="33%"}
+
+:::
+
+```{r}
+#| content: valuebox
+#| title: "Year 2022"
+#| icon: cup-hot
+
+HTML("
+<ul>
+  <li><a href='Year2022.html'>Interactive</a></li>
+  <li><a href='data/Historical_LSRII_2022.pdf'>Plots</a></li>
+  <li><a href='data/Historical_LSRII_2022.csv'>Gain and MFI</a></li>
+</ul>
+")
+```
+
+### Year 2024 {width="50%"}
+
+::: {.card title="" width="33%"}
+
+:::
+
+```{r}
+#| content: valuebox
+#| title: "Year 2024"
+#| icon: cup-hot
+
+HTML("
+<ul>
+  <li><a href='Year2024.html'>Interactive</a></li>
+  <li><a href='data/Historical_LSRII_2024.pdf'>Plots</a></li>
+  <li><a href='data/Historical_LSRII_2024.csv'>Gain and MFI</a></li>
+</ul>
+")
+```
+
+## Second Row {height="50%"}
+
+### Year 2019 {width="50%"}
+
+```{r}
+#| content: valuebox
+#| title: "Year 2019"
+#| icon: cup-hot
+
+HTML("
+<ul>
+  <li><a href='Year2019.html'>Interactive</a></li>
+  <li><a href='data/Historical_LSRII_2019.pdf'>Plots</a></li>
+  <li><a href='data/Historical_LSRII_2019.csv'>Gain and MFI</a></li>
+</ul>
+")
+```
+
+::: {.card title="" width="33%"}
+
+:::
+
+### Year 2021 {width="50%"}
+
+```{r}
+#| content: valuebox
+#| title: "Year 2021"
+#| icon: cup-hot
+
+HTML("
+<ul>
+  <li><a href='Year2021.html'>Interactive</a></li>
+  <li><a href='data/Historical_LSRII_2021.pdf'>Plots</a></li>
+  <li><a href='data/Historical_LSRII_2021.csv'>Gain and MFI</a></li>
+</ul>
+")
+```
+
+::: {.card title="" width="33%"}
+
+:::
+
+### Year 2023 {width="50%"}
+
+```{r}
+#| content: valuebox
+#| title: "Year 2023"
+#| icon: cup-hot
+
+HTML("
+<ul>
+  <li><a href='Year2023.html'>Interactive</a></li>
+  <li><a href='data/Historical_LSRII_2023.pdf'>Plots</a></li>
+  <li><a href='data/Historical_LSRII_2023.csv'>Gain and MFI</a></li>
+</ul>
+")
+```
+
+::: {.card title="" width="33%"}
+
+:::
+
+
+### Current {width="50%"}
+
+```{r}
+#| content: valuebox
+#| title: "Current"
+#| icon: cup-hot
+
+HTML("
+<ul>
+  <li><a href='https://umgccfcss.github.io/InstrumentQC/LSRII'>Interactive</a></li>
+  <li><a href='https://umgccfcss.github.io/InstrumentQC/data/QCPlots_LSRII.pdf'>Plots</a></li>
+  <li><a href='https://umgccfcss.github.io/InstrumentQC/data/LSRII/Archive/HolisticDataLSRII.csv'>Gain and MFI</a></li>
+</ul>
+")
+```
+
+::: {.card title="" width="33%"}
+
+:::
+ 
+
+
+
+
+
