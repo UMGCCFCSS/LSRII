@@ -48,6 +48,8 @@ website:
         href: https://umgccfcss.github.io/AriaII
     - text: "Year"
       menu:
+      - text: "2017"
+        href: Year2017.qmd
       - text: "2018"
         href: Year2018.qmd
       - text: "2019"

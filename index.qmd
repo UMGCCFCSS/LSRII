@@ -38,7 +38,7 @@ This dashboard was created with [Quarto](https://quarto.org/) and is maintained 
 
 ## First Row {height="50%"}
 
-### Year 2018 {width="50%"}
+### Year 2017 {width="50%"}
 
 ::: {.card title="" width="33%"}
 
@@ -46,81 +46,23 @@ This dashboard was created with [Quarto](https://quarto.org/) and is maintained 
 
 ```{r}
 #| content: valuebox
-#| title: "Year 2018"
+#| title: "Year 2017"
 #| icon: cup-hot
 
 HTML("
 <ul>
-  <li><a href='Year2018.html'>Interactive</a></li>
-  <li><a href='data/Historical_LSRII_2018.pdf'>Plots</a></li>
-  <li><a href='data/Historical_LSRII_2018.csv'>Gain and MFI</a></li>
+  <li><a href='Year2017.html'>Interactive</a></li>
+  <li><a href='data/Historical_LSRII_2017.pdf'>Plots</a></li>
+  <li><a href='data/Historical_LSRII_2017.csv'>Gain and MFI</a></li>
 </ul>
 ")
 ```
-
-### Year 2020 {width="50%"}
-
-::: {.card title="" width="33%"}
-
-:::
-
-```{r}
-#| content: valuebox
-#| title: "Year 2020"
-#| icon: cup-hot
-
-HTML("
-<ul>
-  <li><a href='Year2020.html'>Interactive</a></li>
-  <li><a href='data/Historical_LSRII_2020.pdf'>Plots</a></li>
-  <li><a href='data/Historical_LSRII_2020.csv'>Gain and MFI</a></li>
-</ul>
-")
-```
-
-### Year 2022 {width="50%"}
-
-::: {.card title="" width="33%"}
-
-:::
-
-```{r}
-#| content: valuebox
-#| title: "Year 2022"
-#| icon: cup-hot
-
-HTML("
-<ul>
-  <li><a href='Year2022.html'>Interactive</a></li>
-  <li><a href='data/Historical_LSRII_2022.pdf'>Plots</a></li>
-  <li><a href='data/Historical_LSRII_2022.csv'>Gain and MFI</a></li>
-</ul>
-")
-```
-
-### Year 2024 {width="50%"}
-
-::: {.card title="" width="33%"}
-
-:::
-
-```{r}
-#| content: valuebox
-#| title: "Year 2024"
-#| icon: cup-hot
-
-HTML("
-<ul>
-  <li><a href='Year2024.html'>Interactive</a></li>
-  <li><a href='data/Historical_LSRII_2024.pdf'>Plots</a></li>
-  <li><a href='data/Historical_LSRII_2024.csv'>Gain and MFI</a></li>
-</ul>
-")
-```
-
-## Second Row {height="50%"}
 
 ### Year 2019 {width="50%"}
+
+::: {.card title="" width="33%"}
+
+:::
 
 ```{r}
 #| content: valuebox
@@ -136,11 +78,11 @@ HTML("
 ")
 ```
 
+### Year 2021 {width="50%"}
+
 ::: {.card title="" width="33%"}
 
 :::
-
-### Year 2021 {width="50%"}
 
 ```{r}
 #| content: valuebox
@@ -156,11 +98,11 @@ HTML("
 ")
 ```
 
+### Year 2023 {width="50%"}
+
 ::: {.card title="" width="33%"}
 
 :::
-
-### Year 2023 {width="50%"}
 
 ```{r}
 #| content: valuebox
@@ -176,16 +118,116 @@ HTML("
 ")
 ```
 
+### Current {width="50%"}
+
+::: {.card title="" width="33%"}
+
+:::
+
+```{r}
+#| content: valuebox
+#| title: "Current"
+#| icon: cup-hot
+
+HTML("
+<ul>
+  <li><a href='https://umgccfcss.github.io/InstrumentQC/LSRII'>Interactive</a></li>
+  <li><a href='https://umgccfcss.github.io/InstrumentQC/data/QCPlots_LSRII.pdf'>Plots</a></li>
+  <li><a href='https://umgccfcss.github.io/InstrumentQC/data/LSRII/Archive/HolisticDataLSRII.csv'>Gain and MFI</a></li>
+</ul>
+")
+```
+
+
+
+## Second Row {height="50%"}
+
+### Year 2018 {width="50%"}
+
+```{r}
+#| content: valuebox
+#| title: "Year 2018"
+#| icon: cup-hot
+
+HTML("
+<ul>
+  <li><a href='Year2018.html'>Interactive</a></li>
+  <li><a href='data/Historical_LSRII_2018.pdf'>Plots</a></li>
+  <li><a href='data/Historical_LSRII_2018.csv'>Gain and MFI</a></li>
+</ul>
+")
+```
+
+::: {.card title="" width="33%"}
+
+:::
+
+### Year 2020 {width="50%"}
+
+```{r}
+#| content: valuebox
+#| title: "Year 2020"
+#| icon: cup-hot
+
+HTML("
+<ul>
+  <li><a href='Year2020.html'>Interactive</a></li>
+  <li><a href='data/Historical_LSRII_2020.pdf'>Plots</a></li>
+  <li><a href='data/Historical_LSRII_2020.csv'>Gain and MFI</a></li>
+</ul>
+")
+```
+
+::: {.card title="" width="33%"}
+
+:::
+
+### Year 2022 {width="50%"}
+
+```{r}
+#| content: valuebox
+#| title: "Year 2022"
+#| icon: cup-hot
+
+HTML("
+<ul>
+  <li><a href='Year2022.html'>Interactive</a></li>
+  <li><a href='data/Historical_LSRII_2022.pdf'>Plots</a></li>
+  <li><a href='data/Historical_LSRII_2022.csv'>Gain and MFI</a></li>
+</ul>
+")
+```
+
 ::: {.card title="" width="33%"}
 
 :::
 
 
-### Current {width="50%"}
+### Year 2024 {width="50%"}
 
 ```{r}
 #| content: valuebox
-#| title: "Current"
+#| title: "Year 2024"
+#| icon: cup-hot
+
+HTML("
+<ul>
+  <li><a href='Year2024.html'>Interactive</a></li>
+  <li><a href='data/Historical_LSRII_2024.pdf'>Plots</a></li>
+  <li><a href='data/Historical_LSRII_2024.csv'>Gain and MFI</a></li>
+</ul>
+")
+```
+
+::: {.card title="" width="33%"}
+
+:::
+
+### Extra {width="50%"}
+
+```{r}
+#| content: valuebox
+#| title: "Extra"
 #| icon: cup-hot
 
 HTML("
