@@ -47,9 +47,10 @@ The2022 <- Data |> dplyr::filter(year(DateTime) == 2022)
 ```
 
 ## {.sidebar}
-Dashboard contains historical data for the **BD LSR II**.
+Dashboard contains historical data from **2022** for the **BD LSR II**.
 
-**First Column: MFI** Median Fluorescent Intensity (MFI) values for QC beads acquired Before and After QC. Measures stability over time. 
+**First Column: MFI** Median Fluorescent Intensity (MFI) values for QC beads acquired Before and After QC. Measures stability over time.
+ 
 **Second Column: Gain** Gain (Voltage) values set for instrument after QC. Changes over time reflective of laser health. 
 
 For additional information concerning individual parameter tabs, navigate to the [Help](https://umgccfcss.github.io/InstrumentQC/help) page.
